@@ -1,0 +1,44 @@
+{% block head %}
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+
+
+    {% block Title %}
+    <title>My_自动化安装系统测试版</title>
+    <link rel="shortcut icon" href="/static/img/facio.ico" type="image/x-icon">
+    {% endblock %}
+
+     {% block css %}
+    <!-- css file -->
+     <link href="/static/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    {% endblock css%}
+
+     {% block jquery %}
+    <!-- jquer -->
+        <script src="/static/bootstrap/jquery/jquery-1.11.1.min.js"></script>
+    {% endblock jquery%}
+
+    {% block jscript %}
+    <!-- scripts -->
+        <script src="/static/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    {% endblock jscript%}
+
+    <head>
+{% endblock head%}
+
+
+{% block content %}
+<body>
+<!-- tites -->
+{% block My_tites %}
+    <dev>基础模板（一）<h2></h2></dev>
+{% endblock %}
+
+</body>
+
+
+</html>
+{% endblock content%}
