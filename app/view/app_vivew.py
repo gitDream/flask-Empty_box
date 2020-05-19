@@ -16,7 +16,7 @@ def create_data():
 
 @vive.route("/add_data")
 def add_data():
-    u1=MyUser(username="Linux",password='198641')
+    u1=MyUser(username="Linux",password='237356573')
     db.session.add(u1)
     db.session.commit()
     return "sqlite add  data  OK"
